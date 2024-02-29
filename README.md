@@ -12,7 +12,7 @@ package main
 	ID string  "json:ID"
 	Title string "json:Title"
 	Ibsn int "json:Year"
-	Director string "json:Director"
+	Director *director "json:Director"
 
  }
 
